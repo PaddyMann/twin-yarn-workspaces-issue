@@ -1,0 +1,26 @@
+{
+  "name": "next-app",
+  "private": true,
+  "version": "1.0.0",
+  "babelMacros": {
+    "twin": {
+      "preset": "styled-components"
+    }
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "latest",
+    "next-compose-plugins": "^2.2.1",
+    "next-transpile-modules": "^6.0.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "shared-components": "1.0.0",
+    "styled-components": "^5.2.1",
+    "tailwindcss": "^2.0.1",
+    "twin.macro": "^2.0.6"
+  }
+}

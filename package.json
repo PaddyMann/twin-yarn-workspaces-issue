@@ -1,0 +1,11 @@
+{
+  "name": "twin-yarn-workspaces-issue",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "next-app",
+    "shared-components"
+  ],
+  "main": "index.js",
+  "license": "MIT"
+}
